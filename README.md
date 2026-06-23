@@ -111,3 +111,7 @@ Build for production:
 npm run build
 ```
 deploy trigger
+
+Live Demo
+
+🌐 Live Application: https://campus-compass-wine.vercel.app
