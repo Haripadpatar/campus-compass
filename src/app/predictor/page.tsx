@@ -436,7 +436,7 @@ export default function PredictorPage() {
                       Cutoff Comparison
                     </h4>
                     <div className="h-56 w-full min-w-0 relative">
-                      <ResponsiveContainer width="100%" height="100%">
+                      <ResponsiveContainer width="100%" height="100%" minWidth={0}>
                         <BarChart data={getChartData()} margin={{ top: 10, right: 10, left: -10, bottom: 0 }}>
                           <CartesianGrid strokeDasharray="3 3" stroke="#f1f5f9" />
                           <XAxis dataKey="name" stroke="#94a3b8" fontSize={9} tickLine={false} />

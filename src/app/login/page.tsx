@@ -178,6 +178,7 @@ function LoginForm() {
           src="/images/colleges/engineering.png"
           alt="Campus Library and Grounds"
           fill
+          sizes="(max-width: 1024px) 100vw, 50vw"
           className="object-cover opacity-35 filter brightness-95"
           priority
         />

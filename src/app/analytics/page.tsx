@@ -148,7 +148,7 @@ export default function AnalyticsPage() {
             ROI Analysis: Placements vs. Fees (Lakhs)
           </h3>
           <div className="h-72 w-full mt-2 min-w-0 relative">
-            <ResponsiveContainer width="100%" height="100%">
+            <ResponsiveContainer width="100%" height="100%" minWidth={0}>
               <ScatterChart margin={{ top: 20, right: 20, bottom: 20, left: 10 }}>
                 <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#f1f5f9" />
                 <XAxis 
@@ -201,7 +201,7 @@ export default function AnalyticsPage() {
             Annual Fee Structure Comparison (Lakhs)
           </h3>
           <div className="h-72 w-full mt-2 min-w-0 relative">
-            <ResponsiveContainer width="100%" height="100%">
+            <ResponsiveContainer width="100%" height="100%" minWidth={0}>
               <BarChart data={chartData} margin={{ bottom: 20 }}>
                 <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#f1f5f9" />
                 <XAxis 
@@ -227,7 +227,7 @@ export default function AnalyticsPage() {
             On-Campus Placement Performance (%)
           </h3>
           <div className="h-72 w-full mt-2 min-w-0 relative">
-            <ResponsiveContainer width="100%" height="100%">
+            <ResponsiveContainer width="100%" height="100%" minWidth={0}>
               <BarChart data={chartData} margin={{ bottom: 20 }}>
                 <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#f1f5f9" />
                 <XAxis 
@@ -253,7 +253,7 @@ export default function AnalyticsPage() {
             Student Satisfaction Rating distribution
           </h3>
           <div className="h-72 w-full mt-2 min-w-0 relative">
-            <ResponsiveContainer width="100%" height="100%">
+            <ResponsiveContainer width="100%" height="100%" minWidth={0}>
               <LineChart data={chartData} margin={{ bottom: 20 }}>
                 <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#f1f5f9" />
                 <XAxis 

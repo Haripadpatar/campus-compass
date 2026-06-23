@@ -222,6 +222,7 @@ export default function SignupPage() {
           src="/images/colleges/business.png"
           alt="Modern campus courtyard"
           fill
+          sizes="(max-width: 1024px) 100vw, 50vw"
           className="object-cover opacity-35 filter brightness-95"
           priority
         />
